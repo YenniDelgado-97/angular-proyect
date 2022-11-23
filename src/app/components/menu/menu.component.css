@@ -1,0 +1,60 @@
+.menu-explore{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 60px;
+}
+
+.tarjeta {
+    display: flex;
+    flex-direction: column;
+    background-color: #FBC000 ;
+    height: 350px;
+    width: 300px;
+    align-items: center;
+    justify-content:space-evenly;
+    border-radius: 10px;
+}
+.contenedor-titulo{
+    text-align: center;
+}
+.titulo-tarjeta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bold;
+    font-size: 24px;
+    justify-content: center;
+
+}
+
+.imagen-central{
+    width:200px;
+    height: 200px;
+}
+.contenedor-vinculo{
+    display:flex;
+    align-items: center;
+}
+.vinculo-tarjeta{
+    font-size: 20px;
+    padding-right: 8px;
+    font-weight: 400;
+}
+
+.flecha-logo{
+    width: 30px;
+    height: 30px;
+}
+
+@media(max-width:767px){
+    .menu-explore{
+        flex-direction: column;
+        justify-content: space-between;
+    
+    }
+
+    .tarjeta{
+        margin-top: 10px;
+    }
+}

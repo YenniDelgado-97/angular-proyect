@@ -1,0 +1,60 @@
+.hero-image {
+	display: flex;
+	justify-content: space-around;
+	background-image: url("../../../assets/mujer-con-gafas.jpg");
+	min-height: 450px;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+.columna-informacion{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-left: 500px;
+	
+
+}
+
+.mensaje-custom {
+
+	font-family: sans-serif;
+	font-size: small;
+	font-weight: 600;
+
+}
+
+.mensaje-informacion{
+	font-family: sans-serif;
+	font-size: 30px;
+	margin-top: 20px;
+	font-weight: 600;
+}
+
+.button-shop-men {
+	margin-top: 20px;
+	background: #000;
+	border-radius: 10px;
+	width: 90px;
+	height: 35px;
+	color:white;
+
+}
+
+.button-shop-women{
+	margin-top: 20px;
+	background: #000;
+	border-radius: 10px;
+	width: 130px;
+	height: 35px;
+	color:white;
+}
+
+@media(max-width:767px){
+	.columna-informacion{
+		margin-right: 50px;
+	}
+
+	
+}
