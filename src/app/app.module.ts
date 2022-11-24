@@ -11,6 +11,7 @@ import { MenuComponent } from './components/menu/menu.component';
 import { FooterComponent } from './components/footer/footer.component';
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -20,6 +21,7 @@ import { FooterComponent } from './components/footer/footer.component';
     FeatureComponent,
     MenuComponent,
     FooterComponent,
+
   
     
   ],
